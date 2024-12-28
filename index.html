@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Milanga Union</title>   
+</head>
+<body>
+<header class="header">
+      <div class="header__overlay">
+      </div>  
+        <div class="header__item-container">
+          <h1>  Milanga Union  </h1>
+          <h2> La verdad de la milanesa </h2>
+        </div>
+</header>
+
+<nav id="navbar">
+      <i class="fa-solid fa-motorcycle"  
+      id="nav__DeliveryGratis"> Delivery Gratis! </i>
+      
+        <ul id="nav_list">
+            <li class="nav-item"> <div class="login-button"> <button> <a href="https://wa.me/+5491134652090?text=Quisiera%realizar2unCpedido++" target="_blank">Contactar un Agente</a> </button> </div></li>   
+        </ul>
+    <button class="btn-default" onclick="scrollToBottom()">Arma tu pedido!</button>
+   
+        
+    <button id="menuButton" class="nav-item" >
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    
+    <div id="menuContent" class="btn-default" style="display: none;">
+        <button onclick="scrollToBottom()">Arma tu pedido!</button>
+        <div>
+            <button>
+                <a href="https://wa.me/+5491134652090?text=Quisiera%20realizar%20un%20pedido" target="_blank">Contactar un Agente</a>
+            </button>
+        </div>
+    </div>
+</nav>
+    
+
+<main>
+        <section id="menu">   
+            <h2 class="section-title"> Nuestros Combos </h2>
+            <h3 class="section-subtitle"> Disfrutalos donde  quieras</h3>
+
+             <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">  
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="Imagenes/miladecarne.jpg" class="dish-image" alt="">
+                
+                    <h3 class="dish-title"> Napolitana Completa (Vacuna) </h3>
+                
+                    <span class="dish-description"> Milanesa de Carne vacuna con salsa de tomate, Jamon & Queso Muzzarella + Porcion Grande de Papas Fritas</span>
+                
+
+                   <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                   </div>
+            
+                   <div class="precio">
+                    <h4> $9.700 </h4>
+                   </div>
+                    <button class="btn-default"> Agregar al carrito 
+                     <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                
+                </div>
+
+                <div class="dish">
+                  <div class="dish-heart"> 
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+
+                  <img src="Imagenes/miladecarne.jpg" class="dish-image" alt="">
+            
+                  <h3 class="dish-title"> Napolitana Completa   (Pollo) </h3>
+            
+                  <span class="dish-description"> Milanesa de Pollo con salsa de tomate, Jamon & Queso Muzzarella + Porcion Grande de Papas Fritas</span>
+            
+                  <div class="dish-rate">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <span>(690+)</span>
+                  </div>
+        
+                  <div class="precio">
+                   <h4> $8.900 </h4></div>
+                  <button class="btn-default"> Agregar al carrito 
+                    <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="Imagenes/miladecarne.jpg" class="dish-image" alt="">
+                
+                    <h3 class="dish-title"> Napolitana Completa (Merluza)</h3>
+                
+                    <span class="dish-description"> Milanesa de Merluza con salsa de tomate, Jamon & Queso Muzzarella + Porcion Grande de Papas Fritas </span>
+                
+
+                   <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+)</span>
+                   </div>
+            
+                   <div class="precio">
+                    <h4> $9.500 </h4></div>
+                    <button class="btn-default"> Agregar al carrito 
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            
+                <div class="dish">
+                   <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                   </div>
+
+                   <img src="Imagenes/miladecarne.jpg" class="dish-image" alt="">
+            
+                   <h3 class="dish-title"> Napolitana Completa (Soja) </h3>
+            
+                   <span class="dish-description"> Milanesa de Soja con salsa de tomate, Jamon & Queso Muzzarella + Porcion Grande de Papas Fritas</span>
+            
+
+                    <div class="dish-rate">
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <span>(465+)</span>
+                    </div>
+        
+                    <div class="precio">
+                      <h4> $8.600 </h4></div>
+                      <button class="btn-default">Agregar al carrito 
+                        <i class="fa-solid fa-basket-shopping"></i>
+                      </button>
+                    </div>
+           
+
+              <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="Imagenes/miladecarne.jpg" class="dish-image" alt="">
+            
+                <h3 class="dish-title"> Napolitana Completa (A caballo)</h3>
+            
+                <span class="dish-description"> Milanesa a eleccion con salsa de tomate + 2 huevos fritos + Jamon & Queso Muzzarella + Porcion Grande de Papas Fritas </span>
+            
+
+               <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+               </div>
+        
+               <div class="precio">
+                <h4> $10.200 </h4></div>
+                <button class="btn-default"> Agregar al carrito 
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+              </div>
+
+              <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="Imagenes/miladecarne.jpg" class="dish-image" alt="">
+            
+                <h3 class="dish-title"> Napolitana Completa (Cebolla caramelizada)</h3>
+            
+                <span class="dish-description"> Milanesa a eleccion con salsa de tomate + Cebolla caramelizada + Jamon & Queso Muzzarella + Porcion Grande de Papas Fritas </span>
+            
+
+               <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+               </div>
+        
+               <div class="precio">
+                <h4> $8.700 </h4></div>
+                <button class="btn-default">Agregar al carrito
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+              </div>
+
+              
+
+              <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="Imagenes/cocacola.jpg" class="dish-image" alt="">
+            
+                <h3 class="dish-title"> Coca-Cola Zero  </h3>
+            
+                <span class="dish-description"> Coca-cola Zero azucar 1.75L</span>
+            
+
+               <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(395+)</span>
+               </div>
+        
+              <div class="precio">
+                <h4> $4.200 </h4></div>
+                <button class="btn-default">Agregar al carrito
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+              </div>
+              <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="Imagenes/Sprite.jpg" class="dish-image" alt="">
+            
+                <h3 class="dish-title"> Sprite </h3>
+            
+                <span class="dish-description"> Sprite Lima-Limon 1.5L </span>
+            
+
+               <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(293+)</span>
+               </div>
+        
+               <div class="precio">
+                <h4> $3.900 </h4></div>
+                <button class="btn-default">Agregar al carrito
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+              </div>
+
+              <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="Imagenes/aguamineral.jpg" class="dish-image" alt="">
+            
+                <h3 class="dish-">Agua mineral 1.5L</h3>
+            
+                <span class="dish-description"> Agua mineral Glaciar 1.5L </span>
+            
+
+               <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(221+)</span>
+               </div>
+        
+               <div class="precio">
+                <h4> $2.800 </h4></div>
+                <button class="btn-default"> Agregar al carrito
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+            </div> 
+
+        </section>   
+</main>
+
+     
+
+        <div class="form" id="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                      <h3> Armá tu pedido! </h3>
+                    </div>
+                    <div class="login-button"> <button> <a href="https://wa.me/+5491134652090?text=Quisiera%realizar2unCpedido++" target="_blank">Contactar un Agente</a> </button> </div>
+                </div>
+
+                <div class="gender-group"> <label for="combo-select">Elija su aderezo:</label> <select id="combo-select" name="combo" onchange="handleComboSelection()"> <option value="" disabled selected>Elija una opción</option> <option value="Napolitana Completa (Vacuna)">Not Mayonesa *Mayonesa de la casa -Plantbased- </option><option value="Mayonesa de la casa -Plantbased-"></option>
+                    <option value="Napolitana Completa (Merluza)">Spicy ketchup * Ketchup de la casa -Picante-</option><option value="Ketchup de la casa -Picante-"></option>
+                    <option value="Napolitana Completa (Soja)">Honey Mostard *Mostaza -con miel de campo-</option><option value="Moztaza con miel de campo"></option> </select> </div> <div id="combo-details" style="margin-top: 10px; display: none;"> <p id="combo-message"></p> </div>
+
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="direciondeentrega"> Direcion de entrega: </label>
+                        <input id="firstname" type="text" name="firstname" placeholder="¿ Donde entregar ?" required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="telefono"> Telefono: </label>
+                        <input id="telefono" type="text" name="firstname" placeholder="(Telefono de contacto)" required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="quienrecibe"> ¿ Quien recibe ? </label>
+                        <input id="quienrecibe" type="text" name="firstname" placeholder="¿Quien recibe el pedido?" required> 
+                    </div>
+
+                </div>
+                        <div class="input-box">
+                            <label for="metododepago">Método de Pago</label>
+                            <select id="metododepago" onchange="handlePaymentMethodChange()">
+                                <option value="">Seleccione una opción</option>
+                                <option value="efectivo">En Efectivo</option>
+                                <option value="electronico">Forma Electrónica (Transferencia bancaria, MercadoPago)</option>
+                            </select>
+                        </div>
+                        <div id="finalizarPedido" class="finalizarPedido">
+                        <button>Finalizar Pedido</button>
+                        </div> 
+                </div> 
+                
+            </form>            
+        </div> 
+    </section>
+
+    <section class="container"  id="container">
+        <div id="form-image">
+            <img src="Imagenes/milangaformulario3.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Milanga   Union</h1>
+                <p>La verdad de la milanesa</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+
+                
+
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Visitanos en Nuestro Local </h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Calle Falsa 123</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Springfield, Wonderland.</a>
+                </li>   
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3> Subscribite!</h3>
+                <p>
+                    Ingresa tu E-mail y recibí descuentos exclusivos 
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button id="subcribitebutton">
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="footer_copyright">
+            &#169
+            2024 Todos los derechos reservados
+        </div>
+
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html
