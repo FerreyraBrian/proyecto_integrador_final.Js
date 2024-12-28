@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "imagen": "image",
+        "producto": "Napolitana Completa (Vacuna)",
+        "descripcion": "Milanesa de Carne vacuna con salsa de tomate, Queso Muzzarella + Porcion Grande de Papas Fritas",
+        "precio": 9.700
+    },
+       
+    {
+        "id": 2,
+        "imagen": "image",
+        "producto": "Napolitana Completa (Pollo)",
+        "descripcion": "Milanesa de Pollo con salsa de tomate, Queso Muzzarella + Porcion Grande de Papas Fritas",
+        "precio": 8.900
+    },
+
+    {
+        "id": 3,
+        "imagen": "image",
+        "producto": "Napolitana Completa (Merluza)",
+        "descripcion": "Milanesa de Merluza con salsa de tomate, Queso Muzzarella + Porcion    Grande de Papas Fritas",
+        "precio": 9.500
+    },
+
+    {
+        "id": 4,
+        "imagen": "image",
+        "producto": "Napolitana Completa (Soja)",
+        "descripcion": "Milanesa de Soja con salsa de tomate, Queso Muzzarella + Porcion    Grande de Papas Fritas",
+        "precio": 8.600
+    },
+
+    {
+        "id": 5,
+        "imagen": "image",
+        "producto": "Napolitana Completa (A caballo)",
+        "descripcion": "Milanesa a eleccion con salsa de tomate + Dos huevos fritos + Queso Muzzarella + Porcion Grande de Papas Fritas",
+        "precio": 10.200
+    },
+
+    {
+        "id": 6,
+        "imagen": "image",
+        "producto": "Napolitana Completa (Cebolla caramelizada)",
+        "descripcion": "Milanesa a eleccion con salsa de tomate + Cebolla caramelizada + Queso Muzzarella + Porcion Grande de Papas Fritas",
+        "precio": 10.200
+    },
+
+    {
+        "id": 7,
+        "imagen": "image",
+        "producto": "Gaseosa 1.5L",
+        "descripcion": "Coca-Cola",
+        "precio": 1.800
+    },
+
+    {
+        "id": 8,
+        "imagen": "image",
+        "producto": "Gaseosa 1.5L",
+        "descripcion": "Sprite",
+        "precio": 1.800
+    },
+
+    {
+        "id": 9,
+        "imagen": "image",
+        "producto": "Agua Mineral 1.5L",
+        "descripcion": "Agua Mineral",
+        "precio": 1.800
+    }
+
+]
